@@ -1,0 +1,17 @@
+<RCC>
+  <qresource prefix="login">
+    <file>login_image/TLDTeam.png</file>
+    <file>login_image/background-blue.png</file>
+    <file>login_image/TLDTeam_logo.png</file>
+    <file>login_image/TLDTeam_logo-removebg-preview.png</file>
+    <file>login_image/contact-1.svg</file>
+    <file>login_image/contact-2.svg</file>
+    <file>login_image/facebook.svg</file>
+    <file>login_image/instagram.svg</file>
+    <file>login_image/linkedin.svg</file>
+    <file>login_image/twitter.svg</file>
+    <file>login_image/youtube.svg</file>
+    <file>login_image/logo.png</file>
+    <file>login_image/background image.jpg</file>
+  </qresource>
+</RCC>

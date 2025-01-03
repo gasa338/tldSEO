@@ -1,6 +1,9 @@
 <RCC>
   <qresource prefix="tld">
+    <file>icon/update-app.svg</file>
+    <file>icon/info-circle.svg</file>
     <file>icon/activity.svg</file>
+    <file>icon/clear-svgrepo-com.svg</file>
     <file>icon/airplay.svg</file>
     <file>icon/alert-circle.svg</file>
     <file>icon/alert-octagon.svg</file>

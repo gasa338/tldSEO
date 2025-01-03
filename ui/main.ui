@@ -6,260 +6,389 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1143</width>
-    <height>747</height>
+    <width>1122</width>
+    <height>893</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QWidget" name="navigationLogo" native="true">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>10</y>
-      <width>320</width>
-      <height>60</height>
-     </rect>
+   <layout class="QGridLayout" name="gridLayout">
+    <property name="leftMargin">
+     <number>0</number>
     </property>
-    <property name="minimumSize">
-     <size>
-      <width>0</width>
-      <height>60</height>
-     </size>
+    <property name="topMargin">
+     <number>0</number>
     </property>
-    <property name="maximumSize">
-     <size>
-      <width>320</width>
-      <height>60</height>
-     </size>
+    <property name="rightMargin">
+     <number>0</number>
     </property>
-    <layout class="QGridLayout" name="gridLayout_2">
-     <item row="0" column="0">
-      <widget class="QPushButton" name="logo">
-       <property name="maximumSize">
-        <size>
-         <width>150</width>
-         <height>16777215</height>
-        </size>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <item row="0" column="0">
+     <widget class="QWidget" name="widget" native="true">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>50</height>
+       </size>
+      </property>
+      <property name="inputMethodHints">
+       <set>Qt::ImhNone</set>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <property name="leftMargin">
+        <number>0</number>
        </property>
-       <property name="text">
-        <string/>
+       <property name="topMargin">
+        <number>0</number>
        </property>
-       <property name="icon">
-        <iconset resource="icon_qrc.qrc">
-         <normaloff>:/tld/icon/logo.png</normaloff>:/tld/icon/logo.png</iconset>
+       <property name="rightMargin">
+        <number>0</number>
        </property>
-       <property name="iconSize">
-        <size>
-         <width>320</width>
-         <height>60</height>
-        </size>
+       <property name="bottomMargin">
+        <number>0</number>
        </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QWidget" name="widget_2" native="true">
-    <property name="geometry">
-     <rect>
-      <x>9</x>
-      <y>602</y>
-      <width>1027</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="autoFillBackground">
-     <bool>false</bool>
-    </property>
-   </widget>
-   <widget class="QWidget" name="navigationAction" native="true">
-    <property name="enabled">
-     <bool>true</bool>
-    </property>
-    <property name="geometry">
-     <rect>
-      <x>586</x>
-      <y>9</y>
-      <width>389</width>
-      <height>63</height>
-     </rect>
-    </property>
-    <property name="sizePolicy">
-     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-      <horstretch>0</horstretch>
-      <verstretch>0</verstretch>
-     </sizepolicy>
-    </property>
-    <property name="minimumSize">
-     <size>
-      <width>30</width>
-      <height>60</height>
-     </size>
-    </property>
-    <property name="maximumSize">
-     <size>
-      <width>450</width>
-      <height>16777215</height>
-     </size>
-    </property>
-    <layout class="QHBoxLayout" name="horizontalLayout">
-     <item>
-      <widget class="QComboBox" name="comboBox">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
+       <property name="spacing">
+        <number>0</number>
        </property>
-       <property name="maximumSize">
-        <size>
-         <width>16777215</width>
-         <height>60</height>
-        </size>
-       </property>
-       <property name="font">
-        <font>
-         <pointsize>13</pointsize>
-        </font>
-       </property>
-       <property name="iconSize">
-        <size>
-         <width>24</width>
-         <height>24</height>
-        </size>
-       </property>
-       <item>
-        <property name="text">
-         <string>Upload</string>
-        </property>
-        <property name="icon">
-         <iconset resource="icon_qrc.qrc">
-          <normaloff>:/tld/icon/upload.svg</normaloff>:/tld/icon/upload.svg</iconset>
-        </property>
+       <item row="0" column="2" alignment="Qt::AlignHCenter|Qt::AlignTop">
+        <widget class="QFrame" name="frame_2">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Maximum" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>360</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <property name="spacing">
+           <number>9</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QComboBox" name="comboBox">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>90</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>110</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>24</width>
+              <height>24</height>
+             </size>
+            </property>
+            <item>
+             <property name="text">
+              <string>Upload</string>
+             </property>
+             <property name="icon">
+              <iconset resource="icon_qrc.qrc">
+               <normaloff>:/tld/icon/upload-cloud.svg</normaloff>:/tld/icon/upload-cloud.svg</iconset>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Excel Import</string>
+             </property>
+             <property name="icon">
+              <iconset resource="icon_qrc.qrc">
+               <normaloff>:/tld/icon/file-text.svg</normaloff>:/tld/icon/file-text.svg</iconset>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Enter Custom link</string>
+             </property>
+             <property name="icon">
+              <iconset resource="icon_qrc.qrc">
+               <normaloff>:/tld/icon/external-link.svg</normaloff>:/tld/icon/external-link.svg</iconset>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Enter Sitemap URL</string>
+             </property>
+             <property name="icon">
+              <iconset resource="icon_qrc.qrc">
+               <normaloff>:/tld/icon/link.svg</normaloff>:/tld/icon/link.svg</iconset>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_2">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="MinimumExpanding" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>80</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>60</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Start</string>
+            </property>
+            <property name="icon">
+             <iconset resource="icon_qrc.qrc">
+              <normaloff>:/tld/icon/play.svg</normaloff>:/tld/icon/play.svg</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>24</width>
+              <height>24</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_3">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="MinimumExpanding" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>80</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>60</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Clear</string>
+            </property>
+            <property name="icon">
+             <iconset resource="icon_qrc.qrc">
+              <normaloff>:/tld/icon/clear-svgrepo-com.svg</normaloff>:/tld/icon/clear-svgrepo-com.svg</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>24</width>
+              <height>24</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
        </item>
-       <item>
-        <property name="text">
-         <string>Enter Sitemap URL</string>
-        </property>
-        <property name="icon">
-         <iconset resource="icon_qrc.qrc">
-          <normaloff>:/tld/icon/link-2.svg</normaloff>:/tld/icon/link-2.svg</iconset>
-        </property>
+       <item row="0" column="3" alignment="Qt::AlignRight|Qt::AlignVCenter">
+        <widget class="QWidget" name="widget_3" native="true">
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QPushButton" name="pushButton_5">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="icon_qrc.qrc">
+              <normaloff>:/tld/icon/update-app.svg</normaloff>:/tld/icon/update-app.svg</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>24</width>
+              <height>24</height>
+             </size>
+            </property>
+            <property name="autoDefault">
+             <bool>false</bool>
+            </property>
+            <property name="default">
+             <bool>false</bool>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_4">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="icon_qrc.qrc">
+              <normaloff>:/tld/icon/info-circle.svg</normaloff>:/tld/icon/info-circle.svg</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>24</width>
+              <height>24</height>
+             </size>
+            </property>
+            <property name="default">
+             <bool>false</bool>
+            </property>
+            <property name="flat">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
        </item>
-       <item>
-        <property name="text">
-         <string>Enter Gustom Links</string>
-        </property>
-        <property name="icon">
-         <iconset resource="icon_qrc.qrc">
-          <normaloff>:/tld/icon/external-link.svg</normaloff>:/tld/icon/external-link.svg</iconset>
-        </property>
+       <item row="0" column="1" alignment="Qt::AlignLeft|Qt::AlignTop">
+        <widget class="QFrame" name="frame">
+         <property name="minimumSize">
+          <size>
+           <width>120</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <widget class="QPushButton" name="pushButton">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>120</width>
+            <height>50</height>
+           </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>120</height>
+           </size>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="icon">
+           <iconset resource="icon_qrc.qrc">
+            <normaloff>:/tld/icon/logo.png</normaloff>:/tld/icon/logo.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>120</width>
+            <height>48</height>
+           </size>
+          </property>
+         </widget>
+        </widget>
        </item>
-       <item>
-        <property name="text">
-         <string>Import From Excel</string>
-        </property>
-        <property name="icon">
-         <iconset resource="icon_qrc.qrc">
-          <normaloff>:/tld/icon/file-text.svg</normaloff>:/tld/icon/file-text.svg</iconset>
-        </property>
-       </item>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="pushButton">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="minimumSize">
-        <size>
-         <width>0</width>
-         <height>45</height>
-        </size>
-       </property>
-       <property name="font">
-        <font>
-         <pointsize>13</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>Start </string>
-       </property>
-       <property name="icon">
-        <iconset resource="icon_qrc.qrc">
-         <normaloff>:/tld/icon/play.svg</normaloff>:/tld/icon/play.svg</iconset>
-       </property>
-       <property name="iconSize">
-        <size>
-         <width>24</width>
-         <height>24</height>
-        </size>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="pushButton_2">
-       <property name="sizePolicy">
-        <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
-         <horstretch>0</horstretch>
-         <verstretch>0</verstretch>
-        </sizepolicy>
-       </property>
-       <property name="minimumSize">
-        <size>
-         <width>0</width>
-         <height>45</height>
-        </size>
-       </property>
-       <property name="maximumSize">
-        <size>
-         <width>120</width>
-         <height>16777215</height>
-        </size>
-       </property>
-       <property name="font">
-        <font>
-         <pointsize>13</pointsize>
-        </font>
-       </property>
-       <property name="text">
-        <string>Export</string>
-       </property>
-       <property name="icon">
-        <iconset resource="icon_qrc.qrc">
-         <normaloff>:/tld/icon/download-cloud.svg</normaloff>:/tld/icon/download-cloud.svg</iconset>
-       </property>
-       <property name="iconSize">
-        <size>
-         <width>24</width>
-         <height>24</height>
-        </size>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
+      </layout>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QWidget" name="widget_2" native="true"/>
+    </item>
+   </layout>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1143</width>
+     <width>1122</width>
      <height>21</height>
     </rect>
    </property>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <tabstops>
-  <tabstop>logo</tabstop>
- </tabstops>
  <resources>
   <include location="icon_qrc.qrc"/>
  </resources>
